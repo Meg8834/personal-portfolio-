@@ -1,72 +1,70 @@
-# Personal-Portfolio 
-
 🚀 Personal Portfolio – Full Stack Web Application
 📌 Project Overview
 
-This is a full-stack personal portfolio website built to showcase my skills, projects, and experience as an AI Engineer & Full-Stack Developer.
-The application includes a responsive frontend, a Python backend API, and a contact form that stores user messages.
+This project is a full-stack personal portfolio website developed to showcase my skills, projects, and profile as an AI Engineer & Full-Stack Developer.
+It features a responsive frontend, a Python-based backend API, and a functional contact form with database storage.
 
-**🛠️ Tech Stack Used**
+🛠️ Tech Stack
+🔹 Frontend
 
-**🔹 Frontend**
 HTML5
-CSS3
-JavaScript (Vanilla JS)
-Responsive UI with animations
 
-**🔹 Backend**
+CSS3
+
+JavaScript (Vanilla JS)
+
+Responsive UI design
+
+Smooth animations and transitions
+
+🔹 Backend
+
 Python
+
 Flask (REST API)
-CORS enabled for frontend-backend communication
+
+Flask-CORS (for frontend–backend communication)
 
 🔹 Database
-MySQL / SQLite (for storing contact form submissions)
 
-🔹 Tools & Others
+MySQL / SQLite
+
+Used to store contact form submissions
+
+🔹 Tools & Utilities
 
 Git & GitHub
-VS Code
-Virtual Environment (venv)
 
-JSON (for API communication)
+Visual Studio Code
 
-📂 Project Structure
-personal-portfolio/
-│
-├── backend/
-│   └── app.py              
-│
-├── frontend/
-│   ├── index.html         
-│   ├── style.css           
-│   ├── script.js           
-│   └── images/            
-│
-├── resume/
-│   └── BCA_Fresher_Resume_(1)[1].pdf
-│
-├── venv/                   
-│
-├── .gitignore
-├── README.md
-└── LICENSE
+Python Virtual Environment (venv)
 
-🔄 How the Application Works
+JSON (API data exchange format)
 
-User fills the Contact Form on the frontend
-JavaScript sends data using Fetch API (JSON)
-Flask backend receives the request via /contact API
-Data is stored in the database
-Backend sends a JSON response
-Frontend shows success or error message
+🔄 Application Workflow
 
-**🌐 API Details**
+User fills out the Contact Form on the frontend
 
+JavaScript sends form data using Fetch API in JSON format
+
+Flask backend receives data through the /contact API
+
+Data is validated and stored in the database
+
+Backend returns a JSON response
+
+Frontend displays success or error message
+
+🌐 API Details
 Contact API
+
 Endpoint: /contact
+
 Method: POST
+
 Data Format: JSON
-**Example request:**
+
+Sample Request
 
 {
   "name": "John Doe",
@@ -76,54 +74,74 @@ Data Format: JSON
 }
 
 
-**Example response:**
+Sample Response
 
 {
   "success": true,
   "message": "Message saved successfully"
 }
 
-**▶️ How to Run the Project**
- 
-**1️⃣ Backend Setup**
+▶️ How to Run the Project
+1️⃣ Backend Setup
 cd backend
 python app.py
 
 
-Backend will run on:
+Backend runs at:
 http://127.0.0.1:5000
 
-**2️⃣ Frontend Setup**
-Open the file directly or using Live Server:
+2️⃣ Frontend Setup
+
+Open directly in browser OR
+
+Use Live Server:
+
 frontend/index.html
 
-**✨ Features**
+✨ Key Features
 
--Responsive portfolio design
--Smooth animations and transitions
--Contact form with backend API integration
--Database storage for messages
--Clean and maintainable structure
+Fully responsive portfolio design
 
-**🎯 Learning Outcomes**
+Clean and modern UI
 
--Full-stack development workflow
--REST API creation using Flask
--Frontend ↔ Backend communication using JSON
--Database integration
--GitHub project structuring
+Contact form with backend API integration
 
-**📌 Future Enhancements**
+Database storage for user messages
 
--Add a responsive Gmail SMTP notification
+Clear separation of frontend and backend
 
-**👤 Author**
+Maintainable and scalable structure
+
+🎯 Learning Outcomes
+
+Full-stack development workflow
+
+REST API development using Flask
+
+JSON-based frontend ↔ backend communication
+
+Database integration
+
+GitHub project structuring and version control
+
+📌 Future Enhancements
+
+Gmail SMTP email notifications
+
+Admin dashboard to view messages
+
+Deployment to cloud (Render / Railway / AWS)
+
+👤 Author
 
 Megaraj M
 AI Engineer & Full-Stack Developer
 
-**🔗 GitHub: https://github.com/Meg8834**
-**🔗 LinkedIn: https://www.linkedin.com/in/megaraj-m-7b4b79341/**
+🔗 GitHub: https://github.com/Meg8834
+
+🔗 LinkedIn: https://www.linkedin.com/in/megaraj-m-7b4b79341/
 
 🏁 Conclusion
-This project demonstrates a real-world full-stack web application with clean separation of frontend and backend, API integration, and database usage — suitable for academic submission, interviews, and portfolio showcasing.
+
+This project demonstrates a real-world full-stack web application with API integration, database handling, and a responsive frontend.
+It is suitable for academic submission, interviews, and professional portfolio showcasing.
