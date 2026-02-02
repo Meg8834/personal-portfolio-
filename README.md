@@ -39,30 +39,7 @@ The application includes a responsive frontend, a Python backend API, and a cont
 
 •JSON (for API communication)
 
-**📂 Project Structure**
 
-personal-portfolio/
-
-│
-
-├── backend/
- 
-│   └── app.py            
-│
-├── frontend/
-│   ├── index.html          
-│   ├── style.css           
-│   ├── script.js           
-│   └── images/           
-│
-├── resume/
-│   └── BCA_Fresher_Resume_(1)[1].pdf
-│
-├── venv/                   
-│
-├── .gitignore
-├── README.md
-└── LICENSE
 
 **🔄 How the Application Works**
 
