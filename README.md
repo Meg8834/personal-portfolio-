@@ -42,8 +42,11 @@ The application includes a responsive frontend, a Python backend API, and a cont
 **📂 Project Structure**
 
 personal-portfolio/
+
 │
+
 ├── backend/
+ 
 │   └── app.py            
 │
 ├── frontend/
