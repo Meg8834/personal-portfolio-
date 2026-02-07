@@ -8,7 +8,7 @@ const projects = [
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "yFinance API", "Jupyter Notebook"],
     category: "data-science",
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
-    github: "https://github.com/megarajm/stock-analysis",
+    github: "https://github.com/Meg8834/Stock-Market-Analysis-",
     demo: null,
     features: [
       "Real-time and historical stock data collection",
@@ -59,7 +59,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Flask", "MySQL", "Git"],
     category: "web-dev",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    github: "https://github.com/megarajm/portfolio",
+    github: "https://github.com/Meg8834/personal-portfolio-",
     demo: "https://megarajm.dev",
     features: [
       "Responsive design",
